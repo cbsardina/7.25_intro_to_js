@@ -4,25 +4,25 @@
 // What does `givenName` equal right now?
 let givenName;
 // A: Undefined
-
+console.log(givenName);
 
 // 2.
 // What is `givenName` set to right now?
 givenName = "Tim";
 // A: Tim
-
+console.log(givenName);
 
 // 3.
 // What is `givenName` set to right now?
 givenName = givenName;
 // A: Tim
-
+console.log(givenName);
 
 // 4.
 // What is `greeting` set to?
 let greeting = "Hello, how are you? " + givenName;
 // A: Hello, how are you?Tim
-
+console.log(greeting);
 
 // 5.
 // What is `math` set to?
@@ -30,13 +30,13 @@ let high = 50;
 let low  = 10;
 let math = high - low;
 // A: 40
-
+console.log(math);
 
 // 6.
 // What is `math` set to?
 math = high - "5";
 // A: 45
-
+console.log(math);
 
 // 7.
 // Create a variable to calculate Tim's age
@@ -46,13 +46,15 @@ let born = 1984;
 let today = 2017;
 // A:
 let timsAge = "Tim is " + (today - born) + " years old";
+console.log(timsAge);
 
 // 8.
 // Adjust this code. Store some information in the following variables.
 // A:
 let yourName = 'Chris';
 let instructorName = 'Calvin';
-
+console.log(yourName);
+console.log(instructorName);
 
 // 9.
 // Update the variables `yourName` and `instructorName` so the expression below reads correctly.
@@ -61,7 +63,7 @@ yourname = 'Chris';
 instructorName = 'Calvin';
 // This statement should read correctly
 let statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
-
+console.log(statement);
 
 // 10.
 // We've created a variable named after each primitive type.
@@ -72,54 +74,54 @@ let myBoolean = true;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 let myUndefined = undefined;
 // A:
-
+console.log(myUndefined);
 
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
 
 // 11.
 let x = (false == 0);
 // A. true
-
+console.log(x);
 
 // 12.
 let y = (false == "");
 // A. true
-
+console.log(y);
 
 // 13.
 let z = (0 == "");
 // A. true
-
+console.log(z);
 
 // 14.
 let a = (null == null);
 // A. true
-
+console.log(a);
 
 // 25.
 let b = (undefined == undefined);
 // A. true
-
+console.log(b);
 
 // 16.
 let c = (undefined == null);
 // A. true
-
+console.log(c);
 
 // 17.
 let d = (null == false);
 // A. true
-
+console.log(d);
 
 // 18.
 let e = (NaN == null);
 // A. true
-
+console.log(e);
 
 // 19.
 let f = (NaN == NaN);
 // A. true
-
+console.log(f);
 
 // 20.
 // Fix the `if...else` statement below by adding an `if` keyword and conditional expression.
@@ -136,14 +138,14 @@ if (thirsty === true) {
 // For questions 21 - 29 list which statement will be logged.
 
 // 21.
-let x;
+let x2;
 
-if(x){
+if(x2){
 	console.log("True!");
 } else {
 	console.log("False!");
 }
-// A:
+// A: true
 
 
 // 22.
@@ -152,19 +154,19 @@ if(""){
 } else {
 	console.log("False!");
 }
-// A:
+// A: false
 
 
 // 23.
 // this expression will set x to NaN
-let x = 1 * undefined;
+let x3 = 1 * undefined;
 
-if(x){
+if(x3){
 	console.log("True!");
 } else {
 	console.log("False!");
 }
-// A:
+// A: false
 
 
 // 24.
@@ -173,7 +175,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A:
+// A: true
 
 
 // 25.
@@ -182,7 +184,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A:
+// A: true
 
 
 // 26.
@@ -191,7 +193,7 @@ if("Hello World!"){
 } else {
 	console.log("False!");
 }
-// A:
+// A: true
 
 
 // 27.
@@ -200,7 +202,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: true
 
 
 // 28.
@@ -209,7 +211,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: true
 
 
 // 29.
@@ -218,7 +220,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A:
+// A: true
 
 
 // 30.
