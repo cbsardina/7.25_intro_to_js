@@ -21,7 +21,7 @@ console.log(givenName);
 // 4.
 // What is `greeting` set to?
 let greeting = "Hello, how are you? " + givenName;
-// A: Hello, how are you?Tim
+// A: Hello, how are you? Tim
 console.log(greeting);
 
 // 5.
@@ -98,7 +98,7 @@ let a = (null == null);
 // A. true
 console.log(a);
 
-// 25.
+// 15.
 let b = (undefined == undefined);
 // A. true
 console.log(b);
@@ -110,17 +110,17 @@ console.log(c);
 
 // 17.
 let d = (null == false);
-// A. true
+// A. false --> null is falsey, but not false, evaluating to false.
 console.log(d);
 
 // 18.
 let e = (NaN == null);
-// A. true
+// A. false --> null is falsey, but not false, evaluating to false.
 console.log(e);
 
 // 19.
 let f = (NaN == NaN);
-// A. true
+// A. false --> just because
 console.log(f);
 
 // 20.
@@ -145,7 +145,7 @@ if(x2){
 } else {
 	console.log("False!");
 }
-// A: true
+// A: false - b/c x is undefined until assigned a value.
 
 
 // 22.
@@ -175,7 +175,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A: true
+// A: false
 
 
 // 25.
